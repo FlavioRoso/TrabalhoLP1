@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 namespace TrabalhoLP1
 {
@@ -23,7 +24,8 @@ namespace TrabalhoLP1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +44,9 @@ namespace TrabalhoLP1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+
+            app.UseSerilogRequestLogging(); 
+
             app.UseRouting();
 
             app.UseAuthorization();
@@ -51,6 +56,12 @@ namespace TrabalhoLP1
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "Painel",
+                    pattern: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
             });
         }
     }
