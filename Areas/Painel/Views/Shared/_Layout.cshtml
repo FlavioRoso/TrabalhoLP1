@@ -32,6 +32,9 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="~/templates/adminty/files/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="~/templates/adminty/files/assets/css/jquery.mCustomScrollbar.css">
+
+    @RenderSection("Styles",false)
+
 </head>
 
 <body>
@@ -1807,8 +1810,8 @@
 @* <script type="text/javascript" src="~/templates/adminty/files/assets/js/script.js"></script> *@
 <script type="text/javascript" src="~/templates/adminty/files/assets/js/common-pages.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+@RenderSection("Scripts",false)
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
