@@ -11,11 +11,11 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
 {
 
     [Area("Painel")]
-    public class DashboardController : Controller
+    public class CategoriaController : Controller
     {
-        private readonly ILogger<DashboardController> _logger;
+        private readonly ILogger<CategoriaController> _logger;
 
-        public DashboardController(ILogger<DashboardController> logger)
+        public CategoriaController(ILogger<CategoriaController> logger)
         {
             _logger = logger;
         }

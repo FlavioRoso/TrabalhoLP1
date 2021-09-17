@@ -15679,6 +15679,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\flavi\\Documents\\Faculdade\\6 Termo\\LP1\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\flavi\\Documents\\Faculdade\\6 Termo\\LP1\\TrabalhoLP1\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace TrabalhoLP1.Models
 {
-    public class Usuario
+    public class Categoria
     {
-        public int Id {get; set;}
-        public string Login {get; set;}
-        public string Senha {get; set;}
+       public int Id {get; set;}
+       public string Nome {get; set;}
     }
 }
