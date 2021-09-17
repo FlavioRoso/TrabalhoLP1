@@ -25,5 +25,23 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
             return View();
         }
 
+
+        [HttpGet]
+        public IActionResult Novo()
+        {
+            
+            return View(new Produto());
+        }
+
+        [HttpPost]
+        public IActionResult Novo(Produto produto)
+        {
+            return Json(new {
+                    sucesso = true,
+                    msg = "Cadastrado com sucesso!!!",
+
+                });
+        }
+
     }
 }

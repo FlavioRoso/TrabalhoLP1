@@ -3,9 +3,9 @@ $(document).ready(function() {
     // $('.theme-loader').addClass('loaded');
     $('.theme-loader').animate({
         'opacity': '0',
-    }, 1200);
+    }, 700);
     setTimeout(function() {
         $('.theme-loader').remove();
-    }, 2000);
+    }, 700);
     // $('.pcoded').addClass('loaded');
 });

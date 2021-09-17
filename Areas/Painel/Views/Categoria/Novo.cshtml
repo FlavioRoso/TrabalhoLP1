@@ -1,0 +1,30 @@
+@{
+    ViewData["title"] = "Nova Categoria";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-block">
+                
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault01">Nome</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Nome da categoria"
+                                value="Mark" required>
+                        </div>
+                        
+                    </div>
+                   
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/form-loader.js"></script>
+    <script src="~/js/Painel/Categoria/Novo.js"></script>
+}

@@ -25,5 +25,10 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
             return View();
         }
 
+        public IActionResult Novo()
+        {
+            return View();
+        }
+
     }
 }

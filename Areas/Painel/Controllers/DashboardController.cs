@@ -25,5 +25,7 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
             return View();
         }
 
+        
+
     }
 }
