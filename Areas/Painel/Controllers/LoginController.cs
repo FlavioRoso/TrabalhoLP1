@@ -29,27 +29,18 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
         [HttpPost]
         public IActionResult Autenticar([FromBody] Usuario usuario)
         {
-           
+
 
             UsuarioService us = new UsuarioService();
-            if (us.ValidarAutenticacao(usuario))
+            string msg = "";
+            bool logado = us.ValidarAutenticacao(usuario, out msg);
+
+            return Json(new
             {
-                // TempData["Msg"] = "Bem-vindo";
-                return Json(new {
-                    sucesso = true,
-                    msg = "Usuario validado com sucesso!",
+                sucesso = logado,
+                msg = msg,
 
-                });
-            }
-            else
-            {
-                return Json(new {
-                    sucesso = false,
-                    msg = "Email ou senha incorretos!",
-
-                });
-            }
-
+            });
 
         }
 

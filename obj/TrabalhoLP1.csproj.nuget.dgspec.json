@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
+    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {
+    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "projectUniqueName": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
         "projectName": "TrabalhoLP1",
-        "projectPath": "C:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
-        "packagesPath": "C:\\Users\\kender-criacao-2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\obj\\",
+        "projectPath": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "D:\\TrabalhoLP1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kender-criacao-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/FlavioRoso/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
         }
       }
     }

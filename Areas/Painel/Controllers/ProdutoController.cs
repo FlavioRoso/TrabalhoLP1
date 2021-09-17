@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using TrabalhoLP1.Models;
+using TrabalhoLP1.Services;
 
 namespace TrabalhoLP1.Areas.Painel.Controllers
 {
@@ -28,6 +29,20 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
         public IActionResult Novo()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Novo([FromBody] Produto produto)
+        {
+            ProdutoService produtoService = new ProdutoService();
+
+            string msg = "";
+            bool sucesso = produtoService.Cadastrar(produto,out msg);
+            
+            return Json(new {
+                    sucesso = sucesso,
+                    msg = msg,
+
+                });
         }
 
     }

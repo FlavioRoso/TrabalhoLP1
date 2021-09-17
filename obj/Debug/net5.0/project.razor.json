@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
+  "FilePath": "d:\\TrabalhoLP1\\TrabalhoLP1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,103 +15619,103 @@
   "RootNamespace": "TrabalhoLP1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Dashboard\\Index.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Dashboard\\Index.cshtml",
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Categoria\\Novo.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Categoria\\Novo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Basic\\Index.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Basic\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Shared\\_Menu.cshtml",
-      "TargetPath": "Views\\Shared\\_Menu.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Produto\\Novo.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Produto\\Novo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Login\\Index.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Login\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Views\\Produto\\Index.cshtml",
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Shared\\_Menu.cshtml",
+      "TargetPath": "Views\\Shared\\_Menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Produto\\Novo.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Produto\\Novo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Dashboard\\Index.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Dashboard\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Produto\\Index.cshtml",
       "TargetPath": "Views\\Produto\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kender-criacao-2\\Desktop\\TrabalhoLP1\\Areas\\Painel\\Views\\Categoria\\Novo.cshtml",
-      "TargetPath": "Areas\\Painel\\Views\\Categoria\\Novo.cshtml",
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Shared\\_Menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Login\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\TrabalhoLP1\\Areas\\Painel\\Views\\Basic\\Index.cshtml",
+      "TargetPath": "Areas\\Painel\\Views\\Basic\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

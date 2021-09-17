@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\kender-criacao-2\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kender-criacao-2\\.nuget\\packages"
+      "C:\\Users\\Aluno\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Aluno\\.nuget\\packages"
     ]
   }
 }

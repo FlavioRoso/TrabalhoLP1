@@ -9,10 +9,16 @@ namespace TrabalhoLP1.Models
     {
        public int Id {get; set;}
        public string Nome {get; set;}
-       public Decimal Preço {get; set;}
+       public Decimal Preco {get; set;}
        public int Estoque {get; set;}
        public int CategoriaId {get; set;}
        public Categoria Categoria {get; set;}
+
+        public bool Valida()
+       {
+           return Nome != null && Nome.Length > 4 &&
+                  Preco >= 0;
+       }
 
     }
 }

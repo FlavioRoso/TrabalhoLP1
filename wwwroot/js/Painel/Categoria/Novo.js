@@ -1,5 +1,4 @@
 
-
 formLoader.submit("#form-categoria", (data) =>{
 
     let header = {
@@ -16,14 +15,11 @@ formLoader.submit("#form-categoria", (data) =>{
         .then((data) => {
             if(data.sucesso)
             {
-                window.location.href = "/painel/dashboard";
+                toastr.success(data.msg);
             }
             else
             {
-                $('#senha').val('');
-                $('.alert .msg').html(data.msg);
-                $('.alert').removeClass("hide");
-                $('.alert').addClass("show");
+                toastr.error(data.msg);
             }
         })
 

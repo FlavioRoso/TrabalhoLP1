@@ -11,20 +11,16 @@ formLoader.submit("#form-produto", (data) =>{
         body: JSON.stringify(data)
     }
 
-    fetch("/painel/login/autenticar",header)
+    fetch("/painel/produto/novo",header)
         .then((response) => response.json())
         .then((data) => {
-            console.log(data);
             if(data.sucesso)
             {
-                window.location.href = "/painel/dashboard";
+                toastr.success(data.msg);
             }
             else
             {
-                $('#senha').val('');
-                $('.alert .msg').html(data.msg);
-                $('.alert').removeClass("hide");
-                $('.alert').addClass("show");
+                toastr.error(data.msg);
             }
         })
 

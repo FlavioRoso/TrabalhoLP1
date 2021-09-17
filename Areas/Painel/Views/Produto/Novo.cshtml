@@ -6,52 +6,30 @@
     <div class="col-sm-12">
         <div class="card">
             <div class="card-block">
-                <form>
+                <form id="form-produto">
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
-                            <label for="validationDefault01">First name</label>
-                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
-                                value="Mark" required>
+                            <label for="validationDefault01">Nome</label>
+                            <input type="text" class="form-control" id="validationDefault01" name="nome" placeholder="Nome"
+                                 required>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <label for="validationDefault02">Last name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
-                                value="Otto" required>
+                            <label for="validationDefault02">Preço</label>
+                            <input type="number" class="form-control" id="validationDefault02" name="preco" placeholder="Preço"
+                                 required>
                         </div>
+
                         <div class="col-md-4 mb-3">
-                            <label for="validationDefaultUsername">Username</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">
-                                    <span class="input-group-text" id="inputGroupPrepend2">@@</span>
-                                </div>
-                                <input type="text" class="form-control" id="validationDefaultUsername"
-                                    placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationDefault03">City</label>
-                            <input type="text" class="form-control" id="validationDefault03" placeholder="City"
+                            <label for="validationDefault03">Estoque</label>
+                            <input type="number" class="form-control" id="validationDefault03" name="estoque" placeholder="Estoque"
                                 required>
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault04">State</label>
-                            <input type="text" class="form-control" id="validationDefault04" placeholder="State"
-                                required>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault05">Zip</label>
-                            <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-                        </div>
+                        
+                        
                     </div>
-                    <div class="form-group">
-                        <div class="border-checkbox-group border-checkbox-group-primary">
-                            <input class="border-checkbox" type="checkbox" id="checkbox1">
-                            <label class="border-checkbox-label" for="checkbox1">Primary</label>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+
+                   
+                    <button class="btn btn-primary" type="submit">Enviar</button>
                 </form>
             </div>
         </div>

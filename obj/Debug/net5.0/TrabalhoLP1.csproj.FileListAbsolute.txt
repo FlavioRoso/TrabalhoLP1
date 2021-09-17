@@ -1134,3 +1134,9 @@ C:\Users\kender-criacao-2\Desktop\TrabalhoLP1\obj\Debug\net5.0\TrabalhoLP1.genru
 C:\Users\kender-criacao-2\Desktop\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Basic\Index.cshtml.g.cs
 C:\Users\kender-criacao-2\Desktop\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Categoria\Novo.cshtml.g.cs
 C:\Users\kender-criacao-2\Desktop\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Produto\Novo.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Basic\Index.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Categoria\Novo.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Produto\Novo.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Areas\Painel\Views\Shared\_Menu.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Views\Produto\Index.cshtml.g.cs
+D:\TrabalhoLP1\obj\Debug\net5.0\Razor\Views\Shared\_Menu.cshtml.g.cs

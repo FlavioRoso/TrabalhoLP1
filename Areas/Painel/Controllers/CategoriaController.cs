@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using TrabalhoLP1.Services;
 using TrabalhoLP1.Models;
 
 namespace TrabalhoLP1.Areas.Painel.Controllers
@@ -34,11 +35,16 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Novo(Produto produto)
+        public IActionResult Novo([FromBody] Categoria categoria)
         {
+            CategoriaService categoriaService = new CategoriaService();
+
+            string msg = "";
+            bool sucesso = categoriaService.Cadastrar(categoria,out msg);
+            
             return Json(new {
-                    sucesso = true,
-                    msg = "Cadastrado com sucesso!!!",
+                    sucesso = sucesso,
+                    msg = msg,
 
                 });
         }

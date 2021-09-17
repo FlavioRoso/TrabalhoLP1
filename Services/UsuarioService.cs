@@ -29,10 +29,16 @@ namespace TrabalhoLP1.Services
             return false;
         }
 
-        public bool ValidarAutenticacao(Usuario usuario)
+        public bool ValidarAutenticacao(Usuario usuario, out string msg)
         {
             if (usuario.Login == "admin" && usuario.Senha == "123")
+            {
+                msg = "Usuario validado com sucesso!";
                 return true;
+            }
+
+             msg = "Email ou senha incorretos!";
+
 
             return false;
         }
