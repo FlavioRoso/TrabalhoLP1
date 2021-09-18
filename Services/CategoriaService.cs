@@ -11,7 +11,7 @@ namespace TrabalhoLP1.Services
 
         public bool Cadastrar(Categoria categoria, out string msg)
         {
-            if(categoria.Valida())
+            if(categoria != null && categoria.Validar())
             {
                 // cadastra produto
                 msg = "Categoria cadastrada com sucesso!!!";

@@ -9,9 +9,9 @@ namespace TrabalhoLP1.Services
     public class ProdutoService
     {
 
-         public bool Cadastrar(Produto produto, out string msg)
+        public bool Cadastrar(Produto produto, out string msg)
         {
-            if(produto.Valida())
+            if (produto != null && produto.Validar())
             {
                 // cadastra produto
                 msg = "Produto cadastrado com sucesso!!!";
@@ -21,7 +21,7 @@ namespace TrabalhoLP1.Services
             return false;
         }
 
-        
+
 
 
     }

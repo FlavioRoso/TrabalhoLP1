@@ -14,7 +14,7 @@ namespace TrabalhoLP1.Models
        public int CategoriaId {get; set;}
        public Categoria Categoria {get; set;}
 
-        public bool Valida()
+        public bool Validar()
        {
            return Nome != null && Nome.Length > 4 &&
                   Preco >= 0;

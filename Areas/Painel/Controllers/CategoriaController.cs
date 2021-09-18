@@ -35,7 +35,7 @@ namespace TrabalhoLP1.Areas.Painel.Controllers
         }
 
         [HttpPost]
-        public IActionResult Novo([FromBody] Categoria categoria)
+        public IActionResult Novo([FromBody] dynamic categoria)
         {
             CategoriaService categoriaService = new CategoriaService();
 
