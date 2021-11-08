@@ -41,8 +41,14 @@ module.exports = {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
             },
+            
 
         ],
+    },
+    resolve: {
+        alias: {
+            "~": path.resolve(__dirname, 'src/'),
+        },
     },
 
 };

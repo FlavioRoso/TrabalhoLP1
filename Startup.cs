@@ -26,6 +26,8 @@ namespace TrabalhoLP1
         {
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation();
+            string strCon = Configuration.GetSection("AppSettings").GetSection("MySQL").Value;
+            Environment.SetEnvironmentVariable("STR_CON", strCon);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

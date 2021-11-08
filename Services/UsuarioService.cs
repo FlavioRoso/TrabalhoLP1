@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TrabalhoLP1.Models;
+using TrabalhoLP1.DAL;
 
 namespace TrabalhoLP1.Services
 {
@@ -23,15 +24,16 @@ namespace TrabalhoLP1.Services
 
         public bool ValidarAutenticacao(string nome, string senha)
         {
-            if (nome == "admin" && senha == "123")
-                return true;
+            var usuarioDal = new UsuarioDAL();
 
-            return false;
+            return usuarioDal.ValidarAutenticacao(nome,senha);
         }
 
         public bool ValidarAutenticacao(Usuario usuario, out string msg)
         {
-            if (usuario.Login == "admin" && usuario.Senha == "123")
+            var usuarioDal = new UsuarioDAL();
+
+            if (usuarioDal.ValidarAutenticacao(usuario.Login,usuario.Senha))
             {
                 msg = "Usuario validado com sucesso!";
                 return true;

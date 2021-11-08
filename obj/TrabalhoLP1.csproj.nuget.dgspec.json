@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
+    "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
   },
   "projects": {
-    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {
+    "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "projectUniqueName": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
         "projectName": "TrabalhoLP1",
-        "projectPath": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "D:\\TrabalhoLP1\\obj\\",
+        "projectPath": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
