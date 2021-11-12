@@ -2,50 +2,11 @@
     ViewData["title"] = "Novo Produto";
 }
 
-<div class="row">
-    <div class="col-sm-12">
-        <div class="card">
-            <div class="card-block">
-                <form id="form-produto">
-                    <div class="form-row">
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault01">Nome</label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome"
-                                   required>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="preco">Preço</label>
-                            <input type="number" class="form-control" id="preco" name="preco" placeholder="Preço"
-                                   required>
-                        </div>
-
-                        <div class="col-md-3 mb-3">
-                            <label for="estoque">Estoque</label>
-                            <input type="number" class="form-control" id="estoque" name="estoque" placeholder="Estoque"
-                                   required>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="Categoria">Categoria</label>
-                            <select class="form-control " aria-label="Default select example" id="categoria" name="categoriaid" required>
-                                <option selected>Selecione uma categoria</option>
-                                <option value="1">Categoria1</option>
-                                <option value="2">Categoria2</option>
-                                <option value="3">Categoria3</option>
-                            </select>
-                        </div>
-
-
-                    </div>
-
-                   
-                    <button class="btn btn-primary" type="submit">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+    <div id="root"></div>
 
 @section Scripts{
+    <script src="~/clientapp/dist/views/painel/produto/novo.js"></script>
     <script src="~/lib/form-loader.js"></script>
-    <script src="~/js/Painel/Produto/Novo.js"></script>
+    <script src="~/js/Painel/Produto/novo.js"></script>
+    
 }

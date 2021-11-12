@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
+    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj": {
+    "D:\\TrabalhoLP1\\TrabalhoLP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "projectUniqueName": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
         "projectName": "TrabalhoLP1",
-        "projectPath": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\TrabalhoLP1.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flavi\\Desktop\\TrabalhoLP1\\obj\\",
+        "projectPath": "D:\\TrabalhoLP1\\TrabalhoLP1.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "D:\\TrabalhoLP1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
